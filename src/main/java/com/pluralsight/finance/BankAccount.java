@@ -5,7 +5,7 @@ public class BankAccount implements Valuable {
     private String accountNumber;
     private double balance;
 
-    public BankAccount(String name, String accountNumber, double balance) {
+    public BankAccount(String accountNumber, String name, double balance) {
         this.name = name;
         this.accountNumber = accountNumber;
         this.balance = balance;
